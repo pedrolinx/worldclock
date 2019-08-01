@@ -44,6 +44,8 @@ type
     { Public declarations }
   end;
 
+// Define as diversas TimeZones
+
 {$REGION 'TimeZones'}
 const
   TimeZones: array[1..416,1..3] of string =
