@@ -528,6 +528,7 @@ begin
   cbbContinente.Properties.Items.Clear;
   for i := 1 to 416 do
   begin
+    // Adiciona Locais
     sLcContinente := TimeZones[i,3];
     sLcContinente := Copy(sLcContinente,1,Pos('/',sLcContinente)-1);
     if cbbContinente.Properties.Items.IndexOf(sLcContinente) < 0 then
