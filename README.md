@@ -1,2 +1,2 @@
 # worldclock
-World time in Delphi
+World time in Delphi - changes by Pedro Oliveira (Linx)
